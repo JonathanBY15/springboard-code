@@ -21,7 +21,6 @@ function search(str) {
 	}
 
 	return results;
-	// console.log(results);
 }
 
 function searchHandler(e) {
@@ -70,6 +69,7 @@ function showSuggestions(results, inputVal) {
 }
 
 function useSuggestion(e) {
+	console.log(e.target.tagName);
 	if (e.target.tagName === 'LI') {
 		input.value = e.target.innerText; // update input value
 		suggestions.style.display = 'none'; // close suggestion panel
