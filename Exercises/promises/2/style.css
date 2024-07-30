@@ -1,0 +1,14 @@
+body {
+  background-color: #145712;
+}
+
+#cards>img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#cards {
+  margin-top: 100px;
+}
